@@ -1,0 +1,2452 @@
+gmake[1]: Entering directory '/root/wine/libs/wpp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/libs/wpp'
+gmake[1]: Entering directory '/root/wine/libs/port'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/libs/port'
+gmake[1]: Entering directory '/root/wine/tools'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools'
+gmake[1]: Entering directory '/root/wine/tools/sfnt2fon'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/sfnt2fon'
+gmake[1]: Entering directory '/root/wine/tools/widl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/widl'
+gmake[1]: Entering directory '/root/wine/tools/winebuild'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/winebuild'
+gmake[1]: Entering directory '/root/wine/tools/winedump'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/winedump'
+gmake[1]: Entering directory '/root/wine/tools/winegcc'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/winegcc'
+gmake[1]: Entering directory '/root/wine/tools/winemaker'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/winemaker'
+gmake[1]: Entering directory '/root/wine/tools/wmc'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/wmc'
+gmake[1]: Entering directory '/root/wine/tools/wrc'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/tools/wrc'
+gmake[1]: Entering directory '/root/wine/libs/wine'
+version=`(GIT_DIR=../../.git git describe HEAD 2>/dev/null || echo "wine-4.20") | sed -n -e '$s/\(.*\)/const char wine_build[] = "\1";/p'` && (echo $version | cmp -s - version.c) || echo $version >version.c || (rm -f version.c && exit 1)
+gmake[1]: Leaving directory '/root/wine/libs/wine'
+gmake[1]: Entering directory '/root/wine/include'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/include'
+gmake[1]: Entering directory '/root/wine/po'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/po'
+gmake[1]: Entering directory '/root/wine/dlls/adsiid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/adsiid'
+gmake[1]: Entering directory '/root/wine/dlls/dinput'
+gmake[1]: 'libdinput.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/dinput'
+gmake[1]: Entering directory '/root/wine/dlls/dinput8'
+gmake[1]: 'libdinput8.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/dinput8'
+gmake[1]: Entering directory '/root/wine/dlls/dmoguids'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmoguids'
+gmake[1]: Entering directory '/root/wine/dlls/dxerr8'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxerr8'
+gmake[1]: Entering directory '/root/wine/dlls/dxerr9'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxerr9'
+gmake[1]: Entering directory '/root/wine/dlls/dxguid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxguid'
+gmake[1]: Entering directory '/root/wine/dlls/mfuuid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfuuid'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr100'
+gmake[1]: 'libmsvcr100.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr100'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr110'
+gmake[1]: 'libmsvcr110.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr110'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr120'
+gmake[1]: 'libmsvcr120.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr120'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr70'
+gmake[1]: 'libmsvcr70.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr70'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr71'
+gmake[1]: 'libmsvcr71.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr71'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr80'
+gmake[1]: 'libmsvcr80.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr80'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr90'
+gmake[1]: 'libmsvcr90.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr90'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrt'
+gmake[1]: 'libmsvcrt.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrt'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrtd'
+gmake[1]: 'libmsvcrtd.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrtd'
+gmake[1]: Entering directory '/root/wine/dlls/strmbase'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/strmbase'
+gmake[1]: Entering directory '/root/wine/dlls/strmiids'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/strmiids'
+gmake[1]: Entering directory '/root/wine/dlls/ucrtbase'
+gmake[1]: 'libucrtbase.a' is up to date.
+gmake[1]: Leaving directory '/root/wine/dlls/ucrtbase'
+gmake[1]: Entering directory '/root/wine/dlls/uuid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/uuid'
+gmake[1]: Entering directory '/root/wine/dlls/winecrt0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/winecrt0'
+gmake[1]: Entering directory '/root/wine/dlls/wmcodecdspuuid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/wmcodecdspuuid'
+gmake[1]: Entering directory '/root/wine/dlls/acledit'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/acledit'
+gmake[1]: Entering directory '/root/wine/dlls/aclui'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/aclui'
+gmake[1]: Entering directory '/root/wine/dlls/activeds'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/activeds'
+gmake[1]: Entering directory '/root/wine/dlls/actxprxy'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/actxprxy'
+gmake[1]: Entering directory '/root/wine/dlls/adsldp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/adsldp'
+gmake[1]: Entering directory '/root/wine/dlls/adsldp/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/adsldp/tests'
+gmake[1]: Entering directory '/root/wine/dlls/adsldpc'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/adsldpc'
+gmake[1]: Entering directory '/root/wine/dlls/advapi32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/advapi32'
+gmake[1]: Entering directory '/root/wine/dlls/advapi32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/advapi32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/advpack'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/advpack'
+gmake[1]: Entering directory '/root/wine/dlls/advpack/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/advpack/tests'
+gmake[1]: Entering directory '/root/wine/dlls/amsi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/amsi'
+gmake[1]: Entering directory '/root/wine/dlls/amstream'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/amstream'
+gmake[1]: Entering directory '/root/wine/dlls/amstream/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/amstream/tests'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-appmodel-identity-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-appmodel-identity-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-appmodel-runtime-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-appmodel-runtime-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-appmodel-runtime-l1-1-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-appmodel-runtime-l1-1-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-apiquery-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-apiquery-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-appcompat-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-appcompat-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-appinit-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-appinit-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-atoms-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-atoms-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-bem-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-bem-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-com-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-com-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-com-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-com-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-com-private-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-com-private-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-comm-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-comm-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-console-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-console-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-console-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-console-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-crt-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-crt-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-crt-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-crt-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-datetime-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-datetime-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-datetime-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-datetime-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-debug-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-debug-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-debug-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-debug-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-delayload-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-delayload-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-delayload-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-delayload-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-3'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-errorhandling-l1-1-3'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-fibers-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-fibers-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-fibers-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-fibers-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l1-2-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l1-2-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l1-2-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l1-2-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l2-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l2-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-file-l2-1-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-file-l2-1-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-handle-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-handle-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-heap-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-heap-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-heap-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-heap-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-heap-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-heap-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-heap-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-heap-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-interlocked-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-interlocked-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-interlocked-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-interlocked-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-io-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-io-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-io-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-io-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-job-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-job-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-job-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-job-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-kernel32-legacy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-kernel32-legacy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-kernel32-legacy-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-kernel32-legacy-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-kernel32-private-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-kernel32-private-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-largeinteger-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-largeinteger-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-2-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-2-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-2-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-libraryloader-l1-2-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-l1-2-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-l1-2-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-obsolete-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-obsolete-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-obsolete-l1-3-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-obsolete-l1-3-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localization-private-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localization-private-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-localregistry-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-localregistry-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-memory-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-memory-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-memory-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-memory-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-memory-l1-1-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-memory-l1-1-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-misc-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-misc-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-namedpipe-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-namedpipe-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-namedpipe-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-namedpipe-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-namespace-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-namespace-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-normalization-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-normalization-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-path-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-path-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-privateprofile-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-privateprofile-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processenvironment-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processenvironment-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processenvironment-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processenvironment-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-2'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-3'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processthreads-l1-1-3'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-processtopology-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-processtopology-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-profile-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-profile-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-psapi-ansi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-psapi-ansi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-psapi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-psapi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-psapi-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-psapi-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-quirks-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-quirks-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-realtime-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-realtime-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-registry-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-registry-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-registry-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-registry-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-registryuserspecific-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-registryuserspecific-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-rtlsupport-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-rtlsupport-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-rtlsupport-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-rtlsupport-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-shlwapi-legacy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-shlwapi-legacy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-shlwapi-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-shlwapi-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-shlwapi-obsolete-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-shlwapi-obsolete-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-shutdown-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-shutdown-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-sidebyside-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-sidebyside-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-string-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-string-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-string-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-string-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-string-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-string-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-stringansi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-stringansi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-stringloader-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-stringloader-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-synch-ansi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-synch-ansi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-synch-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-synch-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-synch-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-synch-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-synch-l1-2-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-synch-l1-2-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-sysinfo-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-sysinfo-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-sysinfo-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-sysinfo-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-sysinfo-l1-2-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-sysinfo-l1-2-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-threadpool-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-threadpool-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-threadpool-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-threadpool-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-threadpool-legacy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-threadpool-legacy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-threadpool-private-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-threadpool-private-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-timezone-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-timezone-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-toolhelp-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-toolhelp-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-url-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-url-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-util-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-util-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-version-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-version-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-version-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-version-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-version-private-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-version-private-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-versionansi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-versionansi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-windowserrorreporting-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-windowserrorreporting-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-error-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-error-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-error-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-error-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-errorprivate-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-errorprivate-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-registration-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-registration-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-roparameterizediid-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-roparameterizediid-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-string-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-string-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-winrt-string-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-winrt-string-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-wow64-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-wow64-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-wow64-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-wow64-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-xstate-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-xstate-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-core-xstate-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-core-xstate-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-conio-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-conio-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-convert-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-convert-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-environment-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-environment-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-filesystem-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-filesystem-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-heap-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-heap-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-locale-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-locale-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-math-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-math-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-multibyte-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-multibyte-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-private-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-private-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-process-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-process-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-runtime-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-runtime-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-stdio-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-stdio-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-string-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-string-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-time-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-time-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-crt-utility-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-crt-utility-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-devices-config-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-devices-config-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-devices-config-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-devices-config-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-devices-query-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-devices-query-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-advapi32-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-advapi32-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-advapi32-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-advapi32-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-normaliz-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-normaliz-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-ole32-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-ole32-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-shell32-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-shell32-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-shlwapi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-shlwapi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-shlwapi-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-shlwapi-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-user32-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-user32-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-downlevel-version-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-downlevel-version-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-dx-d3dkmt-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-dx-d3dkmt-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-eventing-classicprovider-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-eventing-classicprovider-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-eventing-consumer-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-eventing-consumer-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-eventing-controller-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-eventing-controller-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-eventing-legacy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-eventing-legacy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-eventing-provider-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-eventing-provider-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-eventlog-legacy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-eventlog-legacy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-gdi-dpiinfo-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-gdi-dpiinfo-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-mm-joystick-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-mm-joystick-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-mm-misc-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-mm-misc-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-mm-mme-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-mm-mme-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-mm-time-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-mm-time-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-ntuser-dc-access-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-ntuser-dc-access-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-ntuser-rectangle-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-ntuser-rectangle-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-ntuser-sysparams-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-ntuser-sysparams-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-perf-legacy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-perf-legacy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-power-base-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-power-base-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-power-setting-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-power-setting-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-draw-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-draw-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-private-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-private-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-private-l1-1-4'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-private-l1-1-4'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-window-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-window-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-winevent-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-winevent-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-wmpointer-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-wmpointer-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-wmpointer-l1-1-3'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-rtcore-ntuser-wmpointer-l1-1-3'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-activedirectoryclient-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-activedirectoryclient-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-audit-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-audit-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-base-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-base-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-base-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-base-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-base-private-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-base-private-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-credentials-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-credentials-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-cryptoapi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-cryptoapi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-grouppolicy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-grouppolicy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-lsalookup-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-lsalookup-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-lsalookup-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-lsalookup-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-lsalookup-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-lsalookup-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-lsalookup-l2-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-lsalookup-l2-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-lsapolicy-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-lsapolicy-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-provider-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-provider-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-sddl-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-sddl-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-security-systemfunctions-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-security-systemfunctions-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-core-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-core-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-core-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-core-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-management-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-management-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-management-l2-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-management-l2-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-private-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-private-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-winsvc-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-winsvc-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-service-winsvc-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-service-winsvc-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-shcore-obsolete-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-shcore-obsolete-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-shcore-scaling-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-shcore-scaling-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-shcore-stream-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-shcore-stream-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-shcore-thread-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-shcore-thread-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-shell-shellcom-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-shell-shellcom-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/api-ms-win-shell-shellfolders-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/api-ms-win-shell-shellfolders-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/apphelp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/apphelp'
+gmake[1]: Entering directory '/root/wine/dlls/apphelp/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/apphelp/tests'
+gmake[1]: Entering directory '/root/wine/dlls/appwiz.cpl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/appwiz.cpl'
+gmake[1]: Entering directory '/root/wine/dlls/atl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl'
+gmake[1]: Entering directory '/root/wine/dlls/atl/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl/tests'
+gmake[1]: Entering directory '/root/wine/dlls/atl100'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl100'
+gmake[1]: Entering directory '/root/wine/dlls/atl100/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl100/tests'
+gmake[1]: Entering directory '/root/wine/dlls/atl110'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl110'
+gmake[1]: Entering directory '/root/wine/dlls/atl80'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl80'
+gmake[1]: Entering directory '/root/wine/dlls/atl80/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl80/tests'
+gmake[1]: Entering directory '/root/wine/dlls/atl90'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atl90'
+gmake[1]: Entering directory '/root/wine/dlls/atlthunk'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atlthunk'
+gmake[1]: Entering directory '/root/wine/dlls/atlthunk/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atlthunk/tests'
+gmake[1]: Entering directory '/root/wine/dlls/atmlib'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/atmlib'
+gmake[1]: Entering directory '/root/wine/dlls/authz'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/authz'
+gmake[1]: Entering directory '/root/wine/dlls/avicap32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/avicap32'
+gmake[1]: Entering directory '/root/wine/dlls/avifil32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/avifil32'
+gmake[1]: Entering directory '/root/wine/dlls/avifil32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/avifil32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/avrt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/avrt'
+gmake[1]: Entering directory '/root/wine/dlls/bcrypt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/bcrypt'
+gmake[1]: Entering directory '/root/wine/dlls/bcrypt/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/bcrypt/tests'
+gmake[1]: Entering directory '/root/wine/dlls/bluetoothapis'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/bluetoothapis'
+gmake[1]: Entering directory '/root/wine/dlls/browseui'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/browseui'
+gmake[1]: Entering directory '/root/wine/dlls/browseui/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/browseui/tests'
+gmake[1]: Entering directory '/root/wine/dlls/bthprops.cpl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/bthprops.cpl'
+gmake[1]: Entering directory '/root/wine/dlls/cabinet'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cabinet'
+gmake[1]: Entering directory '/root/wine/dlls/cabinet/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cabinet/tests'
+gmake[1]: Entering directory '/root/wine/dlls/capi2032'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/capi2032'
+gmake[1]: Entering directory '/root/wine/dlls/cards'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cards'
+gmake[1]: Entering directory '/root/wine/dlls/cdosys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cdosys'
+gmake[1]: Entering directory '/root/wine/dlls/cfgmgr32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cfgmgr32'
+gmake[1]: Entering directory '/root/wine/dlls/clusapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/clusapi'
+gmake[1]: Entering directory '/root/wine/dlls/combase'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/combase'
+gmake[1]: Entering directory '/root/wine/dlls/combase/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/combase/tests'
+gmake[1]: Entering directory '/root/wine/dlls/comcat'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comcat'
+gmake[1]: Entering directory '/root/wine/dlls/comcat/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comcat/tests'
+gmake[1]: Entering directory '/root/wine/dlls/comctl32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comctl32'
+gmake[1]: Entering directory '/root/wine/dlls/comctl32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comctl32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/comdlg32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comdlg32'
+gmake[1]: Entering directory '/root/wine/dlls/comdlg32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comdlg32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/compstui'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/compstui'
+gmake[1]: Entering directory '/root/wine/dlls/comsvcs'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comsvcs'
+gmake[1]: Entering directory '/root/wine/dlls/comsvcs/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/comsvcs/tests'
+gmake[1]: Entering directory '/root/wine/dlls/concrt140'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/concrt140'
+gmake[1]: Entering directory '/root/wine/dlls/connect'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/connect'
+gmake[1]: Entering directory '/root/wine/dlls/credui'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/credui'
+gmake[1]: Entering directory '/root/wine/dlls/credui/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/credui/tests'
+gmake[1]: Entering directory '/root/wine/dlls/crtdll'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/crtdll'
+gmake[1]: Entering directory '/root/wine/dlls/crypt32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/crypt32'
+gmake[1]: Entering directory '/root/wine/dlls/crypt32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/crypt32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/cryptdlg'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptdlg'
+gmake[1]: Entering directory '/root/wine/dlls/cryptdll'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptdll'
+gmake[1]: Entering directory '/root/wine/dlls/cryptext'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptext'
+gmake[1]: Entering directory '/root/wine/dlls/cryptnet'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptnet'
+gmake[1]: Entering directory '/root/wine/dlls/cryptnet/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptnet/tests'
+gmake[1]: Entering directory '/root/wine/dlls/cryptui'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptui'
+gmake[1]: Entering directory '/root/wine/dlls/cryptui/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/cryptui/tests'
+gmake[1]: Entering directory '/root/wine/dlls/ctapi32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ctapi32'
+gmake[1]: Entering directory '/root/wine/dlls/ctl3d32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ctl3d32'
+gmake[1]: Entering directory '/root/wine/dlls/d2d1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d2d1'
+gmake[1]: Entering directory '/root/wine/dlls/d2d1/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d2d1/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d10'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d10'
+gmake[1]: Entering directory '/root/wine/dlls/d3d10/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d10/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d10_1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d10_1'
+gmake[1]: Entering directory '/root/wine/dlls/d3d10_1/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d10_1/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d10core'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d10core'
+gmake[1]: Entering directory '/root/wine/dlls/d3d10core/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d10core/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d11'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d11'
+gmake[1]: Entering directory '/root/wine/dlls/d3d11/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d11/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d12/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d12/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d8'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d8'
+gmake[1]: Entering directory '/root/wine/dlls/d3d8/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d8/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3d9'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d9'
+gmake[1]: Entering directory '/root/wine/dlls/d3d9/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3d9/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_33'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_33'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_34'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_34'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_35'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_35'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_36'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_36'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_37'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_37'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_38'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_38'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_39'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_39'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_40'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_40'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_41'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_41'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_42'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_42'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_43'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_43'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_43/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_43/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_46'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_46'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_47'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_47'
+gmake[1]: Entering directory '/root/wine/dlls/d3dcompiler_47/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dcompiler_47/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dim'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dim'
+gmake[1]: Entering directory '/root/wine/dlls/d3drm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3drm'
+gmake[1]: Entering directory '/root/wine/dlls/d3drm/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3drm/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_33'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_33'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_34'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_34'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_35'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_35'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_36'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_36'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_37'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_37'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_38'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_38'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_39'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_39'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_40'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_40'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_41'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_41'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_42'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_42'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_43'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_43'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx10_43/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx10_43/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx11_42'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx11_42'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx11_43'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx11_43'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx11_43/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx11_43/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_24'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_24'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_25'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_25'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_26'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_26'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_27'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_27'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_28'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_28'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_29'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_29'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_30'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_30'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_31'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_31'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_32'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_33'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_33'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_34'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_34'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_35'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_35'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_36'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_36'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_36/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_36/tests'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_37'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_37'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_38'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_38'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_39'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_39'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_40'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_40'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_41'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_41'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_42'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_42'
+gmake[1]: Entering directory '/root/wine/dlls/d3dx9_43'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dx9_43'
+gmake[1]: Entering directory '/root/wine/dlls/d3dxof'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dxof'
+gmake[1]: Entering directory '/root/wine/dlls/d3dxof/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/d3dxof/tests'
+gmake[1]: Entering directory '/root/wine/dlls/davclnt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/davclnt'
+gmake[1]: Entering directory '/root/wine/dlls/dbgeng'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dbgeng'
+gmake[1]: Entering directory '/root/wine/dlls/dbgeng/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dbgeng/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dbghelp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dbghelp'
+gmake[1]: Entering directory '/root/wine/dlls/dbghelp/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dbghelp/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dciman32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dciman32'
+gmake[1]: Entering directory '/root/wine/dlls/ddraw'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ddraw'
+gmake[1]: Entering directory '/root/wine/dlls/ddraw/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ddraw/tests'
+gmake[1]: Entering directory '/root/wine/dlls/ddrawex'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ddrawex'
+gmake[1]: Entering directory '/root/wine/dlls/ddrawex/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ddrawex/tests'
+gmake[1]: Entering directory '/root/wine/dlls/devenum'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/devenum'
+gmake[1]: Entering directory '/root/wine/dlls/devenum/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/devenum/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dhcpcsvc'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dhcpcsvc'
+gmake[1]: Entering directory '/root/wine/dlls/dhtmled.ocx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dhtmled.ocx'
+gmake[1]: Entering directory '/root/wine/dlls/difxapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/difxapi'
+gmake[1]: Entering directory '/root/wine/dlls/dinput'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dinput'
+gmake[1]: Entering directory '/root/wine/dlls/dinput/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dinput/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dinput8'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dinput8'
+gmake[1]: Entering directory '/root/wine/dlls/dinput8/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dinput8/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dispex'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dispex'
+gmake[1]: Entering directory '/root/wine/dlls/dispex/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dispex/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmband'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmband'
+gmake[1]: Entering directory '/root/wine/dlls/dmband/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmband/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmcompos'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmcompos'
+gmake[1]: Entering directory '/root/wine/dlls/dmcompos/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmcompos/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmime'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmime'
+gmake[1]: Entering directory '/root/wine/dlls/dmime/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmime/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmloader'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmloader'
+gmake[1]: Entering directory '/root/wine/dlls/dmloader/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmloader/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmscript'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmscript'
+gmake[1]: Entering directory '/root/wine/dlls/dmscript/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmscript/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmstyle'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmstyle'
+gmake[1]: Entering directory '/root/wine/dlls/dmstyle/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmstyle/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmsynth'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmsynth'
+gmake[1]: Entering directory '/root/wine/dlls/dmsynth/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmsynth/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmusic'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmusic'
+gmake[1]: Entering directory '/root/wine/dlls/dmusic/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmusic/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dmusic32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dmusic32'
+gmake[1]: Entering directory '/root/wine/dlls/dnsapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dnsapi'
+gmake[1]: Entering directory '/root/wine/dlls/dnsapi/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dnsapi/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dplay'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dplay'
+gmake[1]: Entering directory '/root/wine/dlls/dplayx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dplayx'
+gmake[1]: Entering directory '/root/wine/dlls/dplayx/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dplayx/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dpnaddr'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpnaddr'
+gmake[1]: Entering directory '/root/wine/dlls/dpnet'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpnet'
+gmake[1]: Entering directory '/root/wine/dlls/dpnet/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpnet/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dpnhpast'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpnhpast'
+gmake[1]: Entering directory '/root/wine/dlls/dpnlobby'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpnlobby'
+gmake[1]: Entering directory '/root/wine/dlls/dpvoice'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpvoice'
+gmake[1]: Entering directory '/root/wine/dlls/dpvoice/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpvoice/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dpwsockx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dpwsockx'
+gmake[1]: Entering directory '/root/wine/dlls/drmclien'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/drmclien'
+gmake[1]: Entering directory '/root/wine/dlls/dsdmo'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dsdmo'
+gmake[1]: Entering directory '/root/wine/dlls/dsound'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dsound'
+gmake[1]: Entering directory '/root/wine/dlls/dsound/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dsound/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dsquery'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dsquery'
+gmake[1]: Entering directory '/root/wine/dlls/dssenh'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dssenh'
+gmake[1]: Entering directory '/root/wine/dlls/dssenh/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dssenh/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dswave'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dswave'
+gmake[1]: Entering directory '/root/wine/dlls/dswave/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dswave/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dwmapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dwmapi'
+gmake[1]: Entering directory '/root/wine/dlls/dwrite'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dwrite'
+gmake[1]: Entering directory '/root/wine/dlls/dwrite/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dwrite/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dx8vb'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dx8vb'
+gmake[1]: Entering directory '/root/wine/dlls/dxdiagn'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxdiagn'
+gmake[1]: Entering directory '/root/wine/dlls/dxdiagn/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxdiagn/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dxgi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxgi'
+gmake[1]: Entering directory '/root/wine/dlls/dxgi/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxgi/tests'
+gmake[1]: Entering directory '/root/wine/dlls/dxva2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/dxva2'
+gmake[1]: Entering directory '/root/wine/dlls/esent'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/esent'
+gmake[1]: Entering directory '/root/wine/dlls/evr'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/evr'
+gmake[1]: Entering directory '/root/wine/dlls/evr/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/evr/tests'
+gmake[1]: Entering directory '/root/wine/dlls/explorerframe'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/explorerframe'
+gmake[1]: Entering directory '/root/wine/dlls/explorerframe/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/explorerframe/tests'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-authz-context-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-authz-context-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-domainjoin-netjoin-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-domainjoin-netjoin-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-dwmapi-ext-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-dwmapi-ext-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-dc-create-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-dc-create-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-dc-create-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-dc-create-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-dc-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-dc-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-devcaps-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-devcaps-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-draw-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-draw-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-draw-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-draw-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-font-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-font-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-font-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-font-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-gdi-render-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-gdi-render-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-kernel32-package-current-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-kernel32-package-current-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-kernel32-package-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-kernel32-package-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-dialogbox-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-dialogbox-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-draw-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-draw-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-gui-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-gui-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-gui-l1-3-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-gui-l1-3-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-keyboard-l1-3-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-keyboard-l1-3-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-message-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-message-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-message-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-message-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-misc-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-misc-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-misc-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-misc-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-misc-l1-5-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-misc-l1-5-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-mouse-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-mouse-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-private-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-private-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-private-l1-3-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-private-l1-3-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-rectangle-ext-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-rectangle-ext-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-uicontext-ext-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-uicontext-ext-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-window-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-window-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-window-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-window-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-window-l1-1-4'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-window-l1-1-4'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-windowclass-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-windowclass-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ntuser-windowclass-l1-1-1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ntuser-windowclass-l1-1-1'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-oleacc-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-oleacc-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-ras-rasapi32-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-ras-rasapi32-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-gdi-devcaps-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-gdi-devcaps-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-gdi-object-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-gdi-object-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-gdi-rgn-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-gdi-rgn-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-cursor-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-cursor-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-dc-access-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-dc-access-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-dpi-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-dpi-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-dpi-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-dpi-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-rawinput-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-rawinput-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-syscolors-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-syscolors-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-sysparams-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-rtcore-ntuser-sysparams-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-security-credui-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-security-credui-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-security-cryptui-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-security-cryptui-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-shell-comctl32-init-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-shell-comctl32-init-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-shell-comdlg32-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-shell-comdlg32-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-shell-shell32-l1-2-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-shell-shell32-l1-2-0'
+gmake[1]: Entering directory '/root/wine/dlls/ext-ms-win-uxtheme-themes-l1-1-0'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ext-ms-win-uxtheme-themes-l1-1-0'
+gmake[1]: Entering directory '/root/wine/dlls/faultrep'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/faultrep'
+gmake[1]: Entering directory '/root/wine/dlls/faultrep/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/faultrep/tests'
+gmake[1]: Entering directory '/root/wine/dlls/feclient'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/feclient'
+gmake[1]: Entering directory '/root/wine/dlls/fltlib'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fltlib'
+gmake[1]: Entering directory '/root/wine/dlls/fltmgr.sys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fltmgr.sys'
+gmake[1]: Entering directory '/root/wine/dlls/fntcache'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fntcache'
+gmake[1]: Entering directory '/root/wine/dlls/fontsub'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fontsub'
+gmake[1]: Entering directory '/root/wine/dlls/fusion'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fusion'
+gmake[1]: Entering directory '/root/wine/dlls/fusion/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fusion/tests'
+gmake[1]: Entering directory '/root/wine/dlls/fwpuclnt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/fwpuclnt'
+gmake[1]: Entering directory '/root/wine/dlls/gameux'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gameux'
+gmake[1]: Entering directory '/root/wine/dlls/gameux/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gameux/tests'
+gmake[1]: Entering directory '/root/wine/dlls/gdi32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gdi32'
+gmake[1]: Entering directory '/root/wine/dlls/gdi32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gdi32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/gdiplus'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gdiplus'
+gmake[1]: Entering directory '/root/wine/dlls/gdiplus/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gdiplus/tests'
+gmake[1]: Entering directory '/root/wine/dlls/glu32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/glu32'
+gmake[1]: Entering directory '/root/wine/dlls/gphoto2.ds'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gphoto2.ds'
+gmake[1]: Entering directory '/root/wine/dlls/gpkcsp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/gpkcsp'
+gmake[1]: Entering directory '/root/wine/dlls/hal'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hal'
+gmake[1]: Entering directory '/root/wine/dlls/hhctrl.ocx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hhctrl.ocx'
+gmake[1]: Entering directory '/root/wine/dlls/hid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hid'
+gmake[1]: Entering directory '/root/wine/dlls/hid/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hid/tests'
+gmake[1]: Entering directory '/root/wine/dlls/hidclass.sys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hidclass.sys'
+gmake[1]: Entering directory '/root/wine/dlls/hlink'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hlink'
+gmake[1]: Entering directory '/root/wine/dlls/hlink/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hlink/tests'
+gmake[1]: Entering directory '/root/wine/dlls/hnetcfg'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hnetcfg'
+gmake[1]: Entering directory '/root/wine/dlls/hnetcfg/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/hnetcfg/tests'
+gmake[1]: Entering directory '/root/wine/dlls/http.sys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/http.sys'
+gmake[1]: Entering directory '/root/wine/dlls/httpapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/httpapi'
+gmake[1]: Entering directory '/root/wine/dlls/httpapi/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/httpapi/tests'
+gmake[1]: Entering directory '/root/wine/dlls/iccvid'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/iccvid'
+gmake[1]: Entering directory '/root/wine/dlls/icmp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/icmp'
+gmake[1]: Entering directory '/root/wine/dlls/ieframe'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ieframe'
+gmake[1]: Entering directory '/root/wine/dlls/ieframe/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ieframe/tests'
+gmake[1]: Entering directory '/root/wine/dlls/ieproxy'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ieproxy'
+gmake[1]: Entering directory '/root/wine/dlls/imaadp32.acm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/imaadp32.acm'
+gmake[1]: Entering directory '/root/wine/dlls/imagehlp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/imagehlp'
+gmake[1]: Entering directory '/root/wine/dlls/imagehlp/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/imagehlp/tests'
+gmake[1]: Entering directory '/root/wine/dlls/imm32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/imm32'
+gmake[1]: Entering directory '/root/wine/dlls/imm32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/imm32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/inetcomm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inetcomm'
+gmake[1]: Entering directory '/root/wine/dlls/inetcomm/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inetcomm/tests'
+gmake[1]: Entering directory '/root/wine/dlls/inetcpl.cpl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inetcpl.cpl'
+gmake[1]: Entering directory '/root/wine/dlls/inetmib1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inetmib1'
+gmake[1]: Entering directory '/root/wine/dlls/inetmib1/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inetmib1/tests'
+gmake[1]: Entering directory '/root/wine/dlls/infosoft'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/infosoft'
+gmake[1]: Entering directory '/root/wine/dlls/infosoft/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/infosoft/tests'
+gmake[1]: Entering directory '/root/wine/dlls/initpki'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/initpki'
+gmake[1]: Entering directory '/root/wine/dlls/inkobj'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inkobj'
+gmake[1]: Entering directory '/root/wine/dlls/inseng'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/inseng'
+gmake[1]: Entering directory '/root/wine/dlls/iphlpapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/iphlpapi'
+gmake[1]: Entering directory '/root/wine/dlls/iphlpapi/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/iphlpapi/tests'
+gmake[1]: Entering directory '/root/wine/dlls/iprop'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/iprop'
+gmake[1]: Entering directory '/root/wine/dlls/irprops.cpl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/irprops.cpl'
+gmake[1]: Entering directory '/root/wine/dlls/itircl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/itircl'
+gmake[1]: Entering directory '/root/wine/dlls/itss'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/itss'
+gmake[1]: Entering directory '/root/wine/dlls/itss/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/itss/tests'
+gmake[1]: Entering directory '/root/wine/dlls/joy.cpl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/joy.cpl'
+gmake[1]: Entering directory '/root/wine/dlls/jscript'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/jscript'
+gmake[1]: Entering directory '/root/wine/dlls/jscript/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/jscript/tests'
+gmake[1]: Entering directory '/root/wine/dlls/jsproxy'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/jsproxy'
+gmake[1]: Entering directory '/root/wine/dlls/jsproxy/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/jsproxy/tests'
+gmake[1]: Entering directory '/root/wine/dlls/kerberos'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/kerberos'
+gmake[1]: Entering directory '/root/wine/dlls/kernel32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/kernel32'
+gmake[1]: Entering directory '/root/wine/dlls/kernel32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/kernel32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/kernelbase'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/kernelbase'
+gmake[1]: Entering directory '/root/wine/dlls/kernelbase/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/kernelbase/tests'
+gmake[1]: Entering directory '/root/wine/dlls/ksecdd.sys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ksecdd.sys'
+gmake[1]: Entering directory '/root/wine/dlls/ksuser'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ksuser'
+gmake[1]: Entering directory '/root/wine/dlls/ktmw32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ktmw32'
+gmake[1]: Entering directory '/root/wine/dlls/l3codeca.acm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/l3codeca.acm'
+gmake[1]: Entering directory '/root/wine/dlls/loadperf'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/loadperf'
+gmake[1]: Entering directory '/root/wine/dlls/localspl'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/localspl'
+gmake[1]: Entering directory '/root/wine/dlls/localspl/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/localspl/tests'
+gmake[1]: Entering directory '/root/wine/dlls/localui'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/localui'
+gmake[1]: Entering directory '/root/wine/dlls/localui/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/localui/tests'
+gmake[1]: Entering directory '/root/wine/dlls/lz32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/lz32'
+gmake[1]: Entering directory '/root/wine/dlls/lz32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/lz32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mapi32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mapi32'
+gmake[1]: Entering directory '/root/wine/dlls/mapi32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mapi32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mapistub'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mapistub'
+gmake[1]: Entering directory '/root/wine/dlls/mciavi32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mciavi32'
+gmake[1]: Entering directory '/root/wine/dlls/mcicda'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mcicda'
+gmake[1]: Entering directory '/root/wine/dlls/mciqtz32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mciqtz32'
+gmake[1]: Entering directory '/root/wine/dlls/mciseq'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mciseq'
+gmake[1]: Entering directory '/root/wine/dlls/mciwave'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mciwave'
+gmake[1]: Entering directory '/root/wine/dlls/mf'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mf'
+gmake[1]: Entering directory '/root/wine/dlls/mf/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mf/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mf3216'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mf3216'
+gmake[1]: Entering directory '/root/wine/dlls/mferror'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mferror'
+gmake[1]: Entering directory '/root/wine/dlls/mfmediaengine'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfmediaengine'
+gmake[1]: Entering directory '/root/wine/dlls/mfmediaengine/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfmediaengine/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mfplat'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfplat'
+gmake[1]: Entering directory '/root/wine/dlls/mfplat/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfplat/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mfplay'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfplay'
+gmake[1]: Entering directory '/root/wine/dlls/mfreadwrite'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfreadwrite'
+gmake[1]: Entering directory '/root/wine/dlls/mfreadwrite/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mfreadwrite/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mgmtapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mgmtapi'
+gmake[1]: Entering directory '/root/wine/dlls/midimap'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/midimap'
+gmake[1]: Entering directory '/root/wine/dlls/mlang'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mlang'
+gmake[1]: Entering directory '/root/wine/dlls/mlang/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mlang/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mmcndmgr'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mmcndmgr'
+gmake[1]: Entering directory '/root/wine/dlls/mmcndmgr/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mmcndmgr/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mmdevapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mmdevapi'
+gmake[1]: Entering directory '/root/wine/dlls/mmdevapi/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mmdevapi/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mountmgr.sys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mountmgr.sys'
+gmake[1]: Entering directory '/root/wine/dlls/mp3dmod'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mp3dmod'
+gmake[1]: Entering directory '/root/wine/dlls/mp3dmod/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mp3dmod/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mpr'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mpr'
+gmake[1]: Entering directory '/root/wine/dlls/mpr/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mpr/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mprapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mprapi'
+gmake[1]: Entering directory '/root/wine/dlls/msacm32.drv'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msacm32.drv'
+gmake[1]: Entering directory '/root/wine/dlls/msacm32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msacm32'
+gmake[1]: Entering directory '/root/wine/dlls/msacm32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msacm32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msadp32.acm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msadp32.acm'
+gmake[1]: Entering directory '/root/wine/dlls/msasn1'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msasn1'
+gmake[1]: Entering directory '/root/wine/dlls/mscat32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mscat32'
+gmake[1]: Entering directory '/root/wine/dlls/mscms'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mscms'
+gmake[1]: Entering directory '/root/wine/dlls/mscms/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mscms/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mscoree'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mscoree'
+gmake[1]: Entering directory '/root/wine/dlls/mscoree/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mscoree/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mscorwks'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mscorwks'
+gmake[1]: Entering directory '/root/wine/dlls/msctf'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msctf'
+gmake[1]: Entering directory '/root/wine/dlls/msctf/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msctf/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msctfp'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msctfp'
+gmake[1]: Entering directory '/root/wine/dlls/msdaps'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msdaps'
+gmake[1]: Entering directory '/root/wine/dlls/msdelta'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msdelta'
+gmake[1]: Entering directory '/root/wine/dlls/msdmo'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msdmo'
+gmake[1]: Entering directory '/root/wine/dlls/msdmo/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msdmo/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msdrm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msdrm'
+gmake[1]: Entering directory '/root/wine/dlls/msftedit'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msftedit'
+gmake[1]: Entering directory '/root/wine/dlls/msftedit/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msftedit/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msg711.acm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msg711.acm'
+gmake[1]: Entering directory '/root/wine/dlls/msgsm32.acm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msgsm32.acm'
+gmake[1]: Entering directory '/root/wine/dlls/mshtml.tlb'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mshtml.tlb'
+gmake[1]: Entering directory '/root/wine/dlls/mshtml'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mshtml'
+gmake[1]: Entering directory '/root/wine/dlls/mshtml/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mshtml/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msi'
+gmake[1]: Entering directory '/root/wine/dlls/msi/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msi/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msident'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msident'
+gmake[1]: Entering directory '/root/wine/dlls/msimg32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msimg32'
+gmake[1]: Entering directory '/root/wine/dlls/msimsg'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msimsg'
+gmake[1]: Entering directory '/root/wine/dlls/msimtf'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msimtf'
+gmake[1]: Entering directory '/root/wine/dlls/msisip'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msisip'
+gmake[1]: Entering directory '/root/wine/dlls/msisys.ocx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msisys.ocx'
+gmake[1]: Entering directory '/root/wine/dlls/msls31'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msls31'
+gmake[1]: Entering directory '/root/wine/dlls/msnet32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msnet32'
+gmake[1]: Entering directory '/root/wine/dlls/mspatcha'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mspatcha'
+gmake[1]: Entering directory '/root/wine/dlls/mspatcha/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mspatcha/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msports'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msports'
+gmake[1]: Entering directory '/root/wine/dlls/msrle32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msrle32'
+gmake[1]: Entering directory '/root/wine/dlls/msrle32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msrle32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msscript.ocx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msscript.ocx'
+gmake[1]: Entering directory '/root/wine/dlls/msscript.ocx/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msscript.ocx/tests'
+gmake[1]: Entering directory '/root/wine/dlls/mssign32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mssign32'
+gmake[1]: Entering directory '/root/wine/dlls/mssip32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mssip32'
+gmake[1]: Entering directory '/root/wine/dlls/mstask'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mstask'
+gmake[1]: Entering directory '/root/wine/dlls/mstask/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mstask/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcirt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcirt'
+gmake[1]: Entering directory '/root/wine/dlls/msvcirt/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcirt/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcm80'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcm80'
+gmake[1]: Entering directory '/root/wine/dlls/msvcm90'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcm90'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp100'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp100'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp100/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp100/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp110'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp110'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp110/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp110/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp120'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp120'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp120/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp120/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp120_app'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp120_app'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp140'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp140'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp140/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp140/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp60'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp60'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp60/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp60/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp70'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp70'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp71'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp71'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp80'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp80'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp90'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp90'
+gmake[1]: Entering directory '/root/wine/dlls/msvcp90/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcp90/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr100'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr100'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr100/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr100/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr110'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr110'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr110/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr110/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr120'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr120'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr120/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr120/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr120_app'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr120_app'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr70'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr70'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr71'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr71'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr80'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr80'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr90'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr90'
+gmake[1]: Entering directory '/root/wine/dlls/msvcr90/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcr90/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrt'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrt/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrt/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrt20'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrt20'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrt40'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrt40'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrtd'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrtd'
+gmake[1]: Entering directory '/root/wine/dlls/msvcrtd/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvcrtd/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvfw32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvfw32'
+gmake[1]: Entering directory '/root/wine/dlls/msvfw32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvfw32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msvidc32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msvidc32'
+gmake[1]: Entering directory '/root/wine/dlls/mswsock'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mswsock'
+gmake[1]: Entering directory '/root/wine/dlls/msxml'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msxml'
+gmake[1]: Entering directory '/root/wine/dlls/msxml2'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msxml2'
+gmake[1]: Entering directory '/root/wine/dlls/msxml3'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msxml3'
+gmake[1]: Entering directory '/root/wine/dlls/msxml3/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msxml3/tests'
+gmake[1]: Entering directory '/root/wine/dlls/msxml4'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msxml4'
+gmake[1]: Entering directory '/root/wine/dlls/msxml6'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/msxml6'
+gmake[1]: Entering directory '/root/wine/dlls/mtxdm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/mtxdm'
+gmake[1]: Entering directory '/root/wine/dlls/ncrypt'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ncrypt'
+gmake[1]: Entering directory '/root/wine/dlls/nddeapi'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/nddeapi'
+gmake[1]: Entering directory '/root/wine/dlls/ndis.sys'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ndis.sys'
+gmake[1]: Entering directory '/root/wine/dlls/netapi32'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/netapi32'
+gmake[1]: Entering directory '/root/wine/dlls/netapi32/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/netapi32/tests'
+gmake[1]: Entering directory '/root/wine/dlls/netcfgx'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/netcfgx'
+gmake[1]: Entering directory '/root/wine/dlls/netcfgx/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/netcfgx/tests'
+gmake[1]: Entering directory '/root/wine/dlls/netprofm'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/netprofm'
+gmake[1]: Entering directory '/root/wine/dlls/netprofm/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/netprofm/tests'
+gmake[1]: Entering directory '/root/wine/dlls/newdev'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/newdev'
+gmake[1]: Entering directory '/root/wine/dlls/ninput'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ninput'
+gmake[1]: Entering directory '/root/wine/dlls/ninput/tests'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/ninput/tests'
+gmake[1]: Entering directory '/root/wine/dlls/normaliz'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/normaliz'
+gmake[1]: Entering directory '/root/wine/dlls/npmshtml'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/npmshtml'
+gmake[1]: Entering directory '/root/wine/dlls/npptools'
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Leaving directory '/root/wine/dlls/npptools'
+gmake[1]: Entering directory '/root/wine/dlls/ntdll'
+gcc -m64 -c -o signal_x86_64.o signal_x86_64.c -I. -I../../include -I/usr/local/include -D__WINESRC__ -D_NTSYSTEM_ \
+  -D_REENTRANT -fPIC -Wall -pipe -fno-strict-aliasing -Wdeclaration-after-statement -Wempty-body \
+  -Wignored-qualifiers -Wno-packed-not-aligned -Wshift-overflow=2 -Wstrict-prototypes -Wtype-limits \
+  -Wunused-but-set-parameter -Wvla -Wwrite-strings -Wpointer-arith -Wlogical-op -gdwarf-2 \
+  -gstrict-dwarf -g -O2
+In file included from signal_x86_64.c:56:
+../../include/libunwind.h:67:17: error: '_LIBUNWIND_CONTEXT_SIZE' undeclared here (not in a function)
+   uint64_t data[_LIBUNWIND_CONTEXT_SIZE];
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+../../include/libunwind.h:72:17: error: '_LIBUNWIND_CURSOR_SIZE' undeclared here (not in a function); did you mean 'LIBUNWIND_AVAIL'?
+   uint64_t data[_LIBUNWIND_CURSOR_SIZE];
+                 ^~~~~~~~~~~~~~~~~~~~~~
+                 LIBUNWIND_AVAIL
+signal_x86_64.c:257:2: error: #error You must define the signal context functions for your platform
+ #error You must define the signal context functions for your platform
+  ^~~~~
+signal_x86_64.c: In function 'set_sigcontext':
+signal_x86_64.c:326:5: warning: implicit declaration of function 'RAX_sig' [-Wimplicit-function-declaration]
+     RAX_sig(sigcontext) = context->Rax;
+     ^~~~~~~
+signal_x86_64.c:326:25: error: lvalue required as left operand of assignment
+     RAX_sig(sigcontext) = context->Rax;
+                         ^
+signal_x86_64.c:327:5: warning: implicit declaration of function 'RCX_sig' [-Wimplicit-function-declaration]
+     RCX_sig(sigcontext) = context->Rcx;
+     ^~~~~~~
+signal_x86_64.c:327:25: error: lvalue required as left operand of assignment
+     RCX_sig(sigcontext) = context->Rcx;
+                         ^
+signal_x86_64.c:328:5: warning: implicit declaration of function 'RDX_sig' [-Wimplicit-function-declaration]
+     RDX_sig(sigcontext) = context->Rdx;
+     ^~~~~~~
+signal_x86_64.c:328:25: error: lvalue required as left operand of assignment
+     RDX_sig(sigcontext) = context->Rdx;
+                         ^
+signal_x86_64.c:329:5: warning: implicit declaration of function 'RBX_sig' [-Wimplicit-function-declaration]
+     RBX_sig(sigcontext) = context->Rbx;
+     ^~~~~~~
+signal_x86_64.c:329:25: error: lvalue required as left operand of assignment
+     RBX_sig(sigcontext) = context->Rbx;
+                         ^
+signal_x86_64.c:330:5: warning: implicit declaration of function 'RSP_sig' [-Wimplicit-function-declaration]
+     RSP_sig(sigcontext) = context->Rsp;
+     ^~~~~~~
+signal_x86_64.c:330:25: error: lvalue required as left operand of assignment
+     RSP_sig(sigcontext) = context->Rsp;
+                         ^
+signal_x86_64.c:331:5: warning: implicit declaration of function 'RBP_sig' [-Wimplicit-function-declaration]
+     RBP_sig(sigcontext) = context->Rbp;
+     ^~~~~~~
+signal_x86_64.c:331:25: error: lvalue required as left operand of assignment
+     RBP_sig(sigcontext) = context->Rbp;
+                         ^
+signal_x86_64.c:332:5: warning: implicit declaration of function 'RSI_sig' [-Wimplicit-function-declaration]
+     RSI_sig(sigcontext) = context->Rsi;
+     ^~~~~~~
+signal_x86_64.c:332:25: error: lvalue required as left operand of assignment
+     RSI_sig(sigcontext) = context->Rsi;
+                         ^
+signal_x86_64.c:333:5: warning: implicit declaration of function 'RDI_sig' [-Wimplicit-function-declaration]
+     RDI_sig(sigcontext) = context->Rdi;
+     ^~~~~~~
+signal_x86_64.c:333:25: error: lvalue required as left operand of assignment
+     RDI_sig(sigcontext) = context->Rdi;
+                         ^
+signal_x86_64.c:334:5: warning: implicit declaration of function 'R8_sig' [-Wimplicit-function-declaration]
+     R8_sig(sigcontext)  = context->R8;
+     ^~~~~~
+signal_x86_64.c:334:25: error: lvalue required as left operand of assignment
+     R8_sig(sigcontext)  = context->R8;
+                         ^
+signal_x86_64.c:335:5: warning: implicit declaration of function 'R9_sig' [-Wimplicit-function-declaration]
+     R9_sig(sigcontext)  = context->R9;
+     ^~~~~~
+signal_x86_64.c:335:25: error: lvalue required as left operand of assignment
+     R9_sig(sigcontext)  = context->R9;
+                         ^
+signal_x86_64.c:336:5: warning: implicit declaration of function 'R10_sig' [-Wimplicit-function-declaration]
+     R10_sig(sigcontext) = context->R10;
+     ^~~~~~~
+signal_x86_64.c:336:25: error: lvalue required as left operand of assignment
+     R10_sig(sigcontext) = context->R10;
+                         ^
+signal_x86_64.c:337:5: warning: implicit declaration of function 'R11_sig' [-Wimplicit-function-declaration]
+     R11_sig(sigcontext) = context->R11;
+     ^~~~~~~
+signal_x86_64.c:337:25: error: lvalue required as left operand of assignment
+     R11_sig(sigcontext) = context->R11;
+                         ^
+signal_x86_64.c:338:5: warning: implicit declaration of function 'R12_sig' [-Wimplicit-function-declaration]
+     R12_sig(sigcontext) = context->R12;
+     ^~~~~~~
+signal_x86_64.c:338:25: error: lvalue required as left operand of assignment
+     R12_sig(sigcontext) = context->R12;
+                         ^
+signal_x86_64.c:339:5: warning: implicit declaration of function 'R13_sig' [-Wimplicit-function-declaration]
+     R13_sig(sigcontext) = context->R13;
+     ^~~~~~~
+signal_x86_64.c:339:25: error: lvalue required as left operand of assignment
+     R13_sig(sigcontext) = context->R13;
+                         ^
+signal_x86_64.c:340:5: warning: implicit declaration of function 'R14_sig' [-Wimplicit-function-declaration]
+     R14_sig(sigcontext) = context->R14;
+     ^~~~~~~
+signal_x86_64.c:340:25: error: lvalue required as left operand of assignment
+     R14_sig(sigcontext) = context->R14;
+                         ^
+signal_x86_64.c:341:5: warning: implicit declaration of function 'R15_sig' [-Wimplicit-function-declaration]
+     R15_sig(sigcontext) = context->R15;
+     ^~~~~~~
+signal_x86_64.c:341:25: error: lvalue required as left operand of assignment
+     R15_sig(sigcontext) = context->R15;
+                         ^
+signal_x86_64.c:342:5: warning: implicit declaration of function 'RIP_sig' [-Wimplicit-function-declaration]
+     RIP_sig(sigcontext) = context->Rip;
+     ^~~~~~~
+signal_x86_64.c:342:25: error: lvalue required as left operand of assignment
+     RIP_sig(sigcontext) = context->Rip;
+                         ^
+signal_x86_64.c:343:5: warning: implicit declaration of function 'CS_sig' [-Wimplicit-function-declaration]
+     CS_sig(sigcontext)  = context->SegCs;
+     ^~~~~~
+signal_x86_64.c:343:25: error: lvalue required as left operand of assignment
+     CS_sig(sigcontext)  = context->SegCs;
+                         ^
+signal_x86_64.c:344:5: warning: implicit declaration of function 'FS_sig' [-Wimplicit-function-declaration]
+     FS_sig(sigcontext)  = context->SegFs;
+     ^~~~~~
+signal_x86_64.c:344:25: error: lvalue required as left operand of assignment
+     FS_sig(sigcontext)  = context->SegFs;
+                         ^
+signal_x86_64.c:345:5: warning: implicit declaration of function 'GS_sig' [-Wimplicit-function-declaration]
+     GS_sig(sigcontext)  = context->SegGs;
+     ^~~~~~
+signal_x86_64.c:345:25: error: lvalue required as left operand of assignment
+     GS_sig(sigcontext)  = context->SegGs;
+                         ^
+signal_x86_64.c:346:5: warning: implicit declaration of function 'EFL_sig' [-Wimplicit-function-declaration]
+     EFL_sig(sigcontext) = context->EFlags;
+     ^~~~~~~
+signal_x86_64.c:346:25: error: lvalue required as left operand of assignment
+     EFL_sig(sigcontext) = context->EFlags;
+                         ^
+signal_x86_64.c: In function 'libunwind_virtual_unwind':
+signal_x86_64.c:1502:30: warning: passing argument 2 of 'set_sigcontext' from incompatible pointer type [-Wincompatible-pointer-types]
+     set_sigcontext( context, &unw_context );
+                              ^~~~~~~~~~~~
+signal_x86_64.c:324:72: note: expected 'ucontext_t *' {aka 'struct __ucontext *'} but argument is of type 'unw_context_t *' {aka 'struct unw_context_t *'}
+ static inline void set_sigcontext( const CONTEXT *context, ucontext_t *sigcontext )
+                                                            ~~~~~~~~~~~~^~~~~~~~~~
+signal_x86_64.c: In function 'save_context':
+signal_x86_64.c:1723:9: warning: implicit declaration of function 'FPU_sig' [-Wimplicit-function-declaration]
+     if (FPU_sig(sigcontext))
+         ^~~~~~~
+signal_x86_64.c:1726:30: error: invalid type argument of unary '*' (have 'int')
+         context->u.FltSave = *FPU_sig(sigcontext);
+                              ^~~~~~~~~~~~~~~~~~~~
+signal_x86_64.c: In function 'restore_context':
+signal_x86_64.c:1746:30: error: invalid type argument of unary '*' (have 'int')
+     if (FPU_sig(sigcontext)) *FPU_sig(sigcontext) = context->u.FltSave;
+                              ^~~~~~~~~~~~~~~~~~~~
+signal_x86_64.c: In function 'setup_exception':
+signal_x86_64.c:2641:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     stack = (struct stack_layout *)(RSP_sig(sigcontext) & ~15);
+             ^
+signal_x86_64.c:2700:35: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     stack->rec.ExceptionAddress = (void *)RIP_sig(sigcontext);
+                                   ^
+signal_x86_64.c: In function 'setup_raise_exception':
+signal_x86_64.c:2738:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     rsp_ptr = (ULONG64 *)RSP_sig(sigcontext) - 16;
+               ^
+signal_x86_64.c:2745:25: error: lvalue required as left operand of assignment
+     RIP_sig(sigcontext) = (ULONG_PTR)raise_func_trampoline;
+                         ^
+signal_x86_64.c:2746:25: error: lvalue required as left operand of assignment
+     RDI_sig(sigcontext) = (ULONG_PTR)&stack->rec;
+                         ^
+signal_x86_64.c:2747:25: error: lvalue required as left operand of assignment
+     RSI_sig(sigcontext) = (ULONG_PTR)&stack->context;
+                         ^
+signal_x86_64.c:2748:25: error: lvalue required as left operand of assignment
+     RDX_sig(sigcontext) = (ULONG_PTR)raise_generic_exception;
+                         ^
+signal_x86_64.c:2749:25: error: lvalue required as left operand of assignment
+     RBP_sig(sigcontext) = (ULONG_PTR)rsp_ptr;
+                         ^
+signal_x86_64.c:2750:25: error: lvalue required as left operand of assignment
+     RSP_sig(sigcontext) = (ULONG_PTR)stack;
+                         ^
+signal_x86_64.c:2752:25: error: lvalue required as left operand of assignment
+     EFL_sig(sigcontext) &= ~(0x100|0x400|0x40000);
+                         ^~
+signal_x86_64.c: In function 'handle_interrupt':
+signal_x86_64.c:2845:13: warning: implicit declaration of function 'ERROR_sig'; did you mean 'ERROR_CRC'? [-Wimplicit-function-declaration]
+     switch (ERROR_sig(sigcontext) >> 3)
+             ^~~~~~~~~
+             ERROR_CRC
+signal_x86_64.c:2857:37: error: lvalue required as left operand of assignment
+                 RIP_sig(sigcontext) += 3;
+                                     ^~
+signal_x86_64.c: In function 'segv_handler':
+signal_x86_64.c:2884:13: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     stack = (struct stack_layout *)(RSP_sig(ucontext) & ~15);
+             ^
+signal_x86_64.c:2887:9: warning: implicit declaration of function 'TRAP_sig'; did you mean 'TRAP_BRKPT'? [-Wimplicit-function-declaration]
+     if (TRAP_sig(ucontext) == TRAP_x86_PAGEFLT && is_inside_signal_stack( stack ) &&
+         ^~~~~~~~
+         TRAP_BRKPT
+signal_x86_64.c: In function 'signal_init_thread':
+signal_x86_64.c:3251:3: error: #error Please define setting %gs for your architecture
+ # error Please define setting %gs for your architecture
+   ^~~~~
+gmake[1]: *** [Makefile:729: signal_x86_64.o] Error 1
+gmake[1]: Leaving directory '/root/wine/dlls/ntdll'
+gmake: *** [Makefile:8522: dlls/ntdll] Error 2
